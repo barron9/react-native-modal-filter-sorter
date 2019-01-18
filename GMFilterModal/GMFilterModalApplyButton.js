@@ -6,7 +6,7 @@ import { View, TouchableOpacity, Text } from 'react-native';
 export default GMFilterModalApplyButton = (props) => {
 
     return (
-        <TouchableOpacity onPress={() => props.showgmfilterbutton()}
+        <TouchableOpacity activeOpacity={.9} onPress={() => props.showgmfilterbutton()}
             style={{
                 justifyContent: 'center',  alignItems: 'center',
                 borderTopColor: '#eee', borderTopWidth: .5, height: 60, backgroundColor: 'orange', borderRadius: 1
